@@ -29,14 +29,14 @@ const Header = () => {
             frontend web developer based in London
         </motion.h1>
 
-        <p 
+        <motion.p 
         initial={{opacity:0}}
         whileInView={{opacity:1}}
         transition={{duration:0.6, delay:0.3}}
         className='max-w-2xl mx-auto font-Ovo'>
         I am a frontend developer from califonia , USA with 10 years of experience in
         multiple companies like Microsoft, Tesla and Apple.
-        </p>
+        </motion.p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <motion.a 
             initial={{y:30, opacity:0}}
